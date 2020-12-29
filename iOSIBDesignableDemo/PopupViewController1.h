@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PopupViewController1.h
 //  STPopupExample
 //
 //  Created by Kevin Lin on 11/9/15.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface PopupViewController1 : UIViewController
 
 @end
-

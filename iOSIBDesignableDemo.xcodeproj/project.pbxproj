@@ -9,13 +9,28 @@
 /* Begin PBXBuildFile section */
 		6578A289259ADD6E003FA172 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6578A288259ADD6E003FA172 /* AppDelegate.m */; };
 		6578A28C259ADD6E003FA172 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6578A28B259ADD6E003FA172 /* SceneDelegate.m */; };
-		6578A28F259ADD6E003FA172 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6578A28E259ADD6E003FA172 /* ViewController.m */; };
-		6578A292259ADD6E003FA172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6578A290259ADD6E003FA172 /* Main.storyboard */; };
 		6578A294259ADD75003FA172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6578A293259ADD75003FA172 /* Assets.xcassets */; };
 		6578A297259ADD75003FA172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6578A295259ADD75003FA172 /* LaunchScreen.storyboard */; };
 		6578A29A259ADD75003FA172 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6578A299259ADD75003FA172 /* main.m */; };
 		6578A2A4259ADD75003FA172 /* iOSIBDesignableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6578A2A3259ADD75003FA172 /* iOSIBDesignableDemoTests.m */; };
 		6578A2AF259ADD75003FA172 /* iOSIBDesignableDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6578A2AE259ADD75003FA172 /* iOSIBDesignableDemoUITests.m */; };
+		6578A2C0259ADDCC003FA172 /* MTTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6578A2BF259ADDCC003FA172 /* MTTestView.xib */; };
+		6578A2C6259ADDE7003FA172 /* MTTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6578A2C5259ADDE7003FA172 /* MTTestView.m */; };
+		65D2B4EE259B152500073202 /* STPopupControllerTransitioningSlideVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B4DE259B152500073202 /* STPopupControllerTransitioningSlideVertical.m */; };
+		65D2B4EF259B152500073202 /* STPopupNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B4E0259B152500073202 /* STPopupNavigationBar.m */; };
+		65D2B4F0259B152500073202 /* STPopupLeftBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B4E2259B152500073202 /* STPopupLeftBarItem.m */; };
+		65D2B4F1259B152500073202 /* UIViewController+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B4E3259B152500073202 /* UIViewController+STPopup.m */; };
+		65D2B4F2259B152500073202 /* STPopupControllerTransitioningFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B4E4259B152500073202 /* STPopupControllerTransitioningFade.m */; };
+		65D2B4F3259B152500073202 /* STPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B4E5259B152500073202 /* STPopupController.m */; };
+		65D2B4F4259B152500073202 /* UIResponder+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B4E6259B152500073202 /* UIResponder+STPopup.m */; };
+		65D2B50B259B156C00073202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D2B500259B156A00073202 /* Main.storyboard */; };
+		65D2B50C259B156C00073202 /* PopupViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B501259B156B00073202 /* PopupViewController2.m */; };
+		65D2B50D259B156C00073202 /* MultiSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B502259B156B00073202 /* MultiSelectionViewController.m */; };
+		65D2B50E259B156C00073202 /* PopupViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B504259B156B00073202 /* PopupViewController3.m */; };
+		65D2B50F259B156C00073202 /* BulletinBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B505259B156B00073202 /* BulletinBoardViewController.m */; };
+		65D2B510259B156C00073202 /* BottomSheetDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B507259B156C00073202 /* BottomSheetDemoViewController.m */; };
+		65D2B511259B156C00073202 /* PopupViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B508259B156C00073202 /* PopupViewController1.m */; };
+		65D2B547259B1A3B00073202 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B545259B1A3A00073202 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +56,6 @@
 		6578A288259ADD6E003FA172 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6578A28A259ADD6E003FA172 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		6578A28B259ADD6E003FA172 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		6578A28D259ADD6E003FA172 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6578A28E259ADD6E003FA172 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6578A291259ADD6E003FA172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6578A293259ADD75003FA172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6578A296259ADD75003FA172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6578A298259ADD75003FA172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +66,39 @@
 		6578A2AA259ADD75003FA172 /* iOSIBDesignableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSIBDesignableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6578A2AE259ADD75003FA172 /* iOSIBDesignableDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSIBDesignableDemoUITests.m; sourceTree = "<group>"; };
 		6578A2B0259ADD75003FA172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6578A2BF259ADDCC003FA172 /* MTTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTTestView.xib; sourceTree = "<group>"; };
+		6578A2C4259ADDE7003FA172 /* MTTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTestView.h; sourceTree = "<group>"; };
+		6578A2C5259ADDE7003FA172 /* MTTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTestView.m; sourceTree = "<group>"; };
+		65D2B4DE259B152500073202 /* STPopupControllerTransitioningSlideVertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupControllerTransitioningSlideVertical.m; sourceTree = "<group>"; };
+		65D2B4DF259B152500073202 /* STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopup.h; sourceTree = "<group>"; };
+		65D2B4E0259B152500073202 /* STPopupNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupNavigationBar.m; sourceTree = "<group>"; };
+		65D2B4E1259B152500073202 /* UIResponder+STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+STPopup.h"; sourceTree = "<group>"; };
+		65D2B4E2259B152500073202 /* STPopupLeftBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupLeftBarItem.m; sourceTree = "<group>"; };
+		65D2B4E3259B152500073202 /* UIViewController+STPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+STPopup.m"; sourceTree = "<group>"; };
+		65D2B4E4259B152500073202 /* STPopupControllerTransitioningFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupControllerTransitioningFade.m; sourceTree = "<group>"; };
+		65D2B4E5259B152500073202 /* STPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupController.m; sourceTree = "<group>"; };
+		65D2B4E6259B152500073202 /* UIResponder+STPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+STPopup.m"; sourceTree = "<group>"; };
+		65D2B4E7259B152500073202 /* STPopupNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupNavigationBar.h; sourceTree = "<group>"; };
+		65D2B4E8259B152500073202 /* STPopupControllerTransitioningSlideVertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupControllerTransitioningSlideVertical.h; sourceTree = "<group>"; };
+		65D2B4E9259B152500073202 /* STPopupControllerTransitioningFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupControllerTransitioningFade.h; sourceTree = "<group>"; };
+		65D2B4EA259B152500073202 /* UIViewController+STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+STPopup.h"; sourceTree = "<group>"; };
+		65D2B4EB259B152500073202 /* STPopupLeftBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupLeftBarItem.h; sourceTree = "<group>"; };
+		65D2B4EC259B152500073202 /* STPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupController.h; sourceTree = "<group>"; };
+		65D2B4FE259B156A00073202 /* MultiSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSelectionViewController.h; sourceTree = "<group>"; };
+		65D2B4FF259B156A00073202 /* BottomSheetDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomSheetDemoViewController.h; sourceTree = "<group>"; };
+		65D2B500259B156A00073202 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		65D2B501259B156B00073202 /* PopupViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController2.m; sourceTree = "<group>"; };
+		65D2B502259B156B00073202 /* MultiSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiSelectionViewController.m; sourceTree = "<group>"; };
+		65D2B503259B156B00073202 /* PopupViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController3.h; sourceTree = "<group>"; };
+		65D2B504259B156B00073202 /* PopupViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController3.m; sourceTree = "<group>"; };
+		65D2B505259B156B00073202 /* BulletinBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletinBoardViewController.m; sourceTree = "<group>"; };
+		65D2B506259B156C00073202 /* PopupViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController2.h; sourceTree = "<group>"; };
+		65D2B507259B156C00073202 /* BottomSheetDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomSheetDemoViewController.m; sourceTree = "<group>"; };
+		65D2B508259B156C00073202 /* PopupViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController1.m; sourceTree = "<group>"; };
+		65D2B509259B156C00073202 /* BulletinBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletinBoardViewController.h; sourceTree = "<group>"; };
+		65D2B50A259B156C00073202 /* PopupViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController1.h; sourceTree = "<group>"; };
+		65D2B545259B1A3A00073202 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65D2B546259B1A3A00073202 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +149,33 @@
 		6578A286259ADD6E003FA172 /* iOSIBDesignableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				65D2B4DD259B152500073202 /* STPopup */,
 				6578A287259ADD6E003FA172 /* AppDelegate.h */,
 				6578A288259ADD6E003FA172 /* AppDelegate.m */,
 				6578A28A259ADD6E003FA172 /* SceneDelegate.h */,
 				6578A28B259ADD6E003FA172 /* SceneDelegate.m */,
-				6578A28D259ADD6E003FA172 /* ViewController.h */,
-				6578A28E259ADD6E003FA172 /* ViewController.m */,
-				6578A290259ADD6E003FA172 /* Main.storyboard */,
 				6578A293259ADD75003FA172 /* Assets.xcassets */,
 				6578A295259ADD75003FA172 /* LaunchScreen.storyboard */,
 				6578A298259ADD75003FA172 /* Info.plist */,
+				65D2B546259B1A3A00073202 /* ViewController.h */,
+				65D2B545259B1A3A00073202 /* ViewController.m */,
 				6578A299259ADD75003FA172 /* main.m */,
+				65D2B4FF259B156A00073202 /* BottomSheetDemoViewController.h */,
+				65D2B507259B156C00073202 /* BottomSheetDemoViewController.m */,
+				65D2B509259B156C00073202 /* BulletinBoardViewController.h */,
+				65D2B505259B156B00073202 /* BulletinBoardViewController.m */,
+				65D2B500259B156A00073202 /* Main.storyboard */,
+				65D2B4FE259B156A00073202 /* MultiSelectionViewController.h */,
+				65D2B502259B156B00073202 /* MultiSelectionViewController.m */,
+				65D2B50A259B156C00073202 /* PopupViewController1.h */,
+				65D2B508259B156C00073202 /* PopupViewController1.m */,
+				65D2B506259B156C00073202 /* PopupViewController2.h */,
+				65D2B501259B156B00073202 /* PopupViewController2.m */,
+				65D2B503259B156B00073202 /* PopupViewController3.h */,
+				65D2B504259B156B00073202 /* PopupViewController3.m */,
+				6578A2C4259ADDE7003FA172 /* MTTestView.h */,
+				6578A2C5259ADDE7003FA172 /* MTTestView.m */,
+				6578A2BF259ADDCC003FA172 /* MTTestView.xib */,
 			);
 			path = iOSIBDesignableDemo;
 			sourceTree = "<group>";
@@ -135,6 +196,28 @@
 				6578A2B0259ADD75003FA172 /* Info.plist */,
 			);
 			path = iOSIBDesignableDemoUITests;
+			sourceTree = "<group>";
+		};
+		65D2B4DD259B152500073202 /* STPopup */ = {
+			isa = PBXGroup;
+			children = (
+				65D2B4DE259B152500073202 /* STPopupControllerTransitioningSlideVertical.m */,
+				65D2B4DF259B152500073202 /* STPopup.h */,
+				65D2B4E0259B152500073202 /* STPopupNavigationBar.m */,
+				65D2B4E1259B152500073202 /* UIResponder+STPopup.h */,
+				65D2B4E2259B152500073202 /* STPopupLeftBarItem.m */,
+				65D2B4E3259B152500073202 /* UIViewController+STPopup.m */,
+				65D2B4E4259B152500073202 /* STPopupControllerTransitioningFade.m */,
+				65D2B4E5259B152500073202 /* STPopupController.m */,
+				65D2B4E6259B152500073202 /* UIResponder+STPopup.m */,
+				65D2B4E7259B152500073202 /* STPopupNavigationBar.h */,
+				65D2B4E8259B152500073202 /* STPopupControllerTransitioningSlideVertical.h */,
+				65D2B4E9259B152500073202 /* STPopupControllerTransitioningFade.h */,
+				65D2B4EA259B152500073202 /* UIViewController+STPopup.h */,
+				65D2B4EB259B152500073202 /* STPopupLeftBarItem.h */,
+				65D2B4EC259B152500073202 /* STPopupController.h */,
+			);
+			path = STPopup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +323,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6578A297259ADD75003FA172 /* LaunchScreen.storyboard in Resources */,
+				65D2B50B259B156C00073202 /* Main.storyboard in Resources */,
 				6578A294259ADD75003FA172 /* Assets.xcassets in Resources */,
-				6578A292259ADD6E003FA172 /* Main.storyboard in Resources */,
+				6578A2C0259ADDCC003FA172 /* MTTestView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +350,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6578A28F259ADD6E003FA172 /* ViewController.m in Sources */,
+				65D2B547259B1A3B00073202 /* ViewController.m in Sources */,
+				65D2B4F2259B152500073202 /* STPopupControllerTransitioningFade.m in Sources */,
+				65D2B50F259B156C00073202 /* BulletinBoardViewController.m in Sources */,
+				65D2B4F4259B152500073202 /* UIResponder+STPopup.m in Sources */,
+				65D2B4F0259B152500073202 /* STPopupLeftBarItem.m in Sources */,
+				65D2B4F3259B152500073202 /* STPopupController.m in Sources */,
+				65D2B4F1259B152500073202 /* UIViewController+STPopup.m in Sources */,
+				65D2B50D259B156C00073202 /* MultiSelectionViewController.m in Sources */,
+				65D2B4EF259B152500073202 /* STPopupNavigationBar.m in Sources */,
+				65D2B50C259B156C00073202 /* PopupViewController2.m in Sources */,
+				65D2B511259B156C00073202 /* PopupViewController1.m in Sources */,
 				6578A289259ADD6E003FA172 /* AppDelegate.m in Sources */,
 				6578A29A259ADD75003FA172 /* main.m in Sources */,
+				65D2B4EE259B152500073202 /* STPopupControllerTransitioningSlideVertical.m in Sources */,
+				65D2B510259B156C00073202 /* BottomSheetDemoViewController.m in Sources */,
+				65D2B50E259B156C00073202 /* PopupViewController3.m in Sources */,
+				6578A2C6259ADDE7003FA172 /* MTTestView.m in Sources */,
 				6578A28C259ADD6E003FA172 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +403,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6578A290259ADD6E003FA172 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6578A291259ADD6E003FA172 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6578A295259ADD75003FA172 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -375,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -444,6 +534,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2989MFX2P;
 				INFOPLIST_FILE = iOSIBDesignableDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +553,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2989MFX2P;
 				INFOPLIST_FILE = iOSIBDesignableDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
